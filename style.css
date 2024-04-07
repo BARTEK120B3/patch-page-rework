@@ -6,6 +6,11 @@
 --accent: #ebd94d; 
 */
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 body *{
     margin: 2rem;
     padding: 0;
@@ -13,7 +18,7 @@ body *{
 }
 
 html{
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -26,6 +31,7 @@ body {
 
 p, h1 {
     color: #d1d7cc;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -34,7 +40,6 @@ header {
 
 h1 {
     font-size:3rem; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container {
@@ -53,6 +58,13 @@ h1 {
     height: 98%;
     display: flex;
     justify-content: center;
+    animation-duration: 1.2s;
+    animation-name: sectionOnLoad;
+}
+
+@keyframes sectionOnLoad{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
 }
 
 img {

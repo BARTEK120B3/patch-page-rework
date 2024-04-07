@@ -1,0 +1,138 @@
+/*
+--text: #d1d7cc;
+--background: #0d0d1f;
+--primary: #444186;
+--secondary: #dddbff;
+--accent: #ebd94d; 
+*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button, p, h1 {
+    color: #d1d7cc;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: #444186;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > img {
+    height: 76%;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+nav {
+    width: 60%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 30%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: .5rem;
+    background-color: #ebd94d;
+    width: 64%;
+    height: 72%;
+    border: none;
+    border: 0.2rem solid #fec008;
+    font-size: xx-large;
+    color: #adab9d;
+}
+
+aside {
+    width: 100%;
+}
+
+.carousel {
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    position: absolute;
+
+}
+
+/* .slide1 {
+    animation-name: fade1;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+}
+
+.slide2 {
+    animation-delay: 5s;
+    animation-name: fade2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.slide3 {
+    animation-delay: 10s;
+    animation-name: fade3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade1 {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fade2 {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fade3 {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+ */
