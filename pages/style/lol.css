@@ -95,44 +95,15 @@ aside {
 .slide {
     width: 100%;
     position: absolute;
-
-}
-
-/* .slide1 {
-    animation-name: fade1;
-    animation-duration: 5s;
-    animation-iteration-count:infinite;
-}
-
-.slide2 {
-    animation-delay: 5s;
-    animation-name: fade2;
+    animation-name: fade;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    visibility: unset;
 }
 
-.slide3 {
-    animation-delay: 10s;
-    animation-name: fade3;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes fade1 {
+@keyframes fade {
     0% { opacity: 0; }
     50% { opacity: 1; }
     100% { opacity: 0; }
 }
 
-@keyframes fade2 {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
-
-@keyframes fade3 {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
- */
