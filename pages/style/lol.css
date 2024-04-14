@@ -6,6 +6,8 @@
 --accent: #ebd94d; 
 */
 
+@import url("https://fonts.cdnfonts.com/css/verdana");
+
 body,
 html {
   margin: 0;
@@ -30,7 +32,8 @@ p,
 h1,
 h2,
 th,
-td {
+td,
+h3 {
   color: #d1d7cc;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -194,75 +197,136 @@ button {
 }
 
 main {
-    margin-top:5%;
-    width: 100%;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 5%;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main > aside {
-    width: 60%;
-    background-color: rgba(44, 41, 86, 200);
-    border-radius: .3rem; 
-    margin: 1rem;
-    font-size: x-large;
-    display: flex;
-    justify-content: center;
+  width: 50%;
+  background-color: rgba(44, 41, 86, 200);
+  border-radius: 0.3rem;
+  margin: 1rem;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > aside > h2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  background-color: #444186;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.textMenager {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 100%;
+}
+
+main > aside > .textMenager > h3 {
+  width: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #3c3973;
+  padding: 0.5rem;
+  border-top-right-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+  margin-left: 5%;
+}
+
+main > aside > .textMenager > p {
+  width: 90%;
+  margin: 1rem;
+  margin-top: 0;
+  font-weight: 500;
+  font-family: "Verdana", sans-serif;
+  background-color: #3c3973;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  padding: 0.5rem;
+  line-height: 2.25rem;
+  align-self: center;
 }
 
 section {
-    width: 100%;
-    background-color: rgba(44, 41, 86, 200);
-    border-radius: .3rem;  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem;
+  width: 80%;
+  background-color: rgba(44, 41, 86, 200);
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
 }
 
 section > * {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .banner {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .banner > h2 {
-    width: 50%;
-    font-size: xx-large;
-    text-align: center;
-    background-color: #444186;
-    border-bottom-left-radius: .3rem;
-    border-bottom-right-radius: .3rem;
+  width: 50%;
+  font-size: xx-large;
+  text-align: center;
+  background-color: #444186;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
 }
 
+/* table {
+  empty-cells: hide;
+} */
 
-table {
-    width: 40%;
-    /* border: 0.1em solid #ebd94d; */
-    border-radius: .3rem;
-    border-collapse: separate;
-    padding: 0;
+aside > table {
+  width: 60%;
+  /* border: 0.1em solid #ebd94d; */
+  border-radius: 0.3rem;
+  border-collapse: separate;
+  padding: 0;
+  margin: 1rem;
+}
+
+section > table {
+  width: 40%;
+  /* border: 0.1em solid #ebd94d; */
+  border-radius: 0.3rem;
+  border-collapse: separate;
+  padding: 0;
 }
 
 table > * {
-    margin: 0;
+  margin: 0;
 }
 
 th {
-    background-color: #ebd94d;
-    color: #adab9d;
+  background-color: #ebd94d;
+  color: #adab9d;
+  padding: 0.3rem;
 }
 
-tr:nth-child(even){
-    background-color: #4c4895;
+td {
+  padding: 0.3rem;
 }
 
-tr:nth-child(odd){
-    background-color: #3c3973;
+tr:nth-child(even) {
+  background-color: #4c4895;
+}
+
+tr:nth-child(odd) {
+  background-color: #3c3973;
 }
