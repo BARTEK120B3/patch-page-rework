@@ -90,7 +90,7 @@ button {
   height: 74%;
   border: none;
   border: 0.2rem solid #fec008;
-  font-size: xx-large;
+  font-size: 1.8rem;
   color: #adab9d;
   display: flex;
   justify-content: center;
@@ -317,10 +317,14 @@ th {
   background-color: #ebd94d;
   color: #adab9d;
   padding: 0.3rem;
+  text-align: center;
+  font-size: 1.55rem;
 }
 
 td {
   padding: 0.3rem;
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 tr:nth-child(even) {
@@ -329,4 +333,20 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
   background-color: #3c3973;
+}
+
+.ltc {
+  border-top-left-radius: .3rem;
+}
+
+.rtc {
+  border-top-right-radius: .3rem;
+}
+
+.lbc {
+  border-bottom-left-radius: .3rem;
+}
+
+.rbc {
+  border-bottom-right-radius: .3rem;
 }
