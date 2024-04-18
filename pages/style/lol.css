@@ -54,7 +54,7 @@ header > img {
 }
 
 h1 {
-  font-size: xx-large;
+  font-size: 2.3vw;
 }
 
 nav {
@@ -90,7 +90,7 @@ button {
   height: 74%;
   border: none;
   border: 0.2rem solid #fec008;
-  font-size: 1.8rem;
+  font-size: 1.65vw;
   color: #adab9d;
   display: flex;
   justify-content: center;
@@ -210,7 +210,7 @@ main > aside {
   background-color: rgba(44, 41, 86, 200);
   border-radius: 0.3rem;
   margin: 1rem;
-  font-size: x-large;
+  font-size: 1.3vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,7 +281,7 @@ section > * {
 
 .banner > h2 {
   width: 50%;
-  font-size: xx-large;
+  font-size: 2.2vw;
   text-align: center;
   background-color: #444186;
   border-bottom-left-radius: 0.3rem;
@@ -318,13 +318,13 @@ th {
   color: #adab9d;
   padding: 0.3rem;
   text-align: center;
-  font-size: 1.55rem;
+  font-size: 1.37vw;
 }
 
 td {
   padding: 0.3rem;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.2vw;
 }
 
 tr:nth-child(even) {
@@ -349,4 +349,24 @@ tr:nth-child(odd) {
 
 .rbc {
   border-bottom-right-radius: .3rem;
+}
+
+article {
+  width: 90%;
+}
+
+article > .article-header {
+  width: 50%;
+}
+
+article > ul {
+  width: 80%;
+}
+
+article > ul > li {
+  width: 100%;
+}
+
+.change {
+  width: 100%;
 }
