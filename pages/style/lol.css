@@ -358,6 +358,8 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: baseline;
+  background-color: #3c3973;
+  border-radius: 0.3rem;
 }
 
 .article-header {
@@ -366,6 +368,9 @@ article {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #4c4895;
+  border-radius: 0.3rem;
+  border-top-right-radius: 0;
 }
 
 .i1 {
@@ -383,7 +388,7 @@ article {
 }
 
 article > ul {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -395,9 +400,11 @@ article > ul > li {
 .change {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 1vw;
+  background-color: #4c4895;
+  border-radius: .3rem;
 }
 
 .change > h4 {
@@ -406,6 +413,7 @@ article > ul > li {
   justify-content: center;
   align-items: center;
   font-size: 1.2vw;
+  text-wrap: nowrap;
 }
 
 .change > ul {
@@ -423,7 +431,7 @@ article > ul > li {
 }
 
 .change > ul > li > * {
-  margin: .2vw;
+  margin: 0.2vw;
 }
 
 .change > ul > li > h5 {
@@ -434,7 +442,7 @@ article > ul > li {
 
 .change > ul > li > p {
   font-size: 1vw;
-  text-wrap: nowrap;
+  text-wrap: wrap;
   width: 100%;
 }
 
