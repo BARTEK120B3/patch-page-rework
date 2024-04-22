@@ -35,7 +35,8 @@ th,
 td,
 h3,
 h4,
-h5 {
+h5,
+li {
   color: #d1d7cc;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -379,8 +380,35 @@ article {
   height: 9vw;
 }
 
+.front {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .article-header > h3 {
   font-size: 2vw;
+}
+
+.shorten {
+  background-color: #4c4895;
+  width: 60%;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.25vw;
+}
+
+.shorten > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.shorten > ul > li {
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: start;
+  width: 88%;
 }
 
 .i2 {
