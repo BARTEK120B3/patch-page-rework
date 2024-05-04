@@ -1,0 +1,20 @@
+lol
+/*
+--text: #d1d7cc;
+--background: #0d0d1f;
+--primary: #444186;
+--secondary: #dddbff;
+--accent: #ebd94d; 
+*/
+
+valo
+/*
+--text: #eae9fc;
+--background: #010104;
+--primary: #ff4655;
+--secondary: #050082;
+--accent: #0600c2;
+--secon-bg: #373335;
+--cool: #340f14;
+--cool-bg: #4b4548;
+*/

@@ -5,5 +5,5 @@ function openLol()
 
 function openValo()
 {
-    window.open("pages/valo.html");
+    window.open("pages/valorant.html");
 }
