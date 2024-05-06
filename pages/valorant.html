@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valorant</title>
     <link rel="stylesheet" href="style/valorant.css" />
-    <script src="" defer></script>
+    <script src="scripts/valorant.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="big-screen-header">
       <img src="src/valorant.png" alt="lol logo" />
       <h1>Valorant</h1>
       <nav>
@@ -25,6 +25,22 @@
         </ul>
       </nav>
     </header>
+    <header class="mobile-header">
+      <div class="logo-menager">
+        <img class="logo" src="src/valorant.png" alt="lol logo" />
+      </div>
+      <h1>Valorant</h1>
+      <div class="szczala-menager">
+        <img class="szczala" src="src/arrow.png" alt="szczała" onclick="triggerAnimation()" />
+      </div>
+    </header>
+    <div class="popup-menu">
+      <ul>
+        <li><button>Champions</button></li>
+        <li><button>Items</button></li>
+        <li><button>Other changes</button></li>
+      </ul>
+    </div>
     <aside class="champions-images">
       <div class="menager">
         <img src="src/brim.jpg" alt="brim" class="slide s1" />
@@ -222,7 +238,13 @@
     <footer>
       <p>
         Made by Bartosz Bartocha&copy; github link:
-        https://github.com/BARTEK120B3/patch-page-rework
+        https://github.com/BARTEK120B3/patch-page-rework icon from :
+        <a
+          target="_blank"
+          href="https://icons8.com/icon/Xna6tXt3TE0O/double-down"
+          >Double Down</a
+        >
+        icon by <a target="_blank" href="https://icons8.com">Icons8</a>
       </p>
     </footer>
   </body>
