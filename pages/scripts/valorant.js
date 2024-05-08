@@ -1,12 +1,11 @@
 const popup = document.getElementsByClassName("popup-menu");
+const szczala = document.getElementsByClassName("szczala");
 
 function slideIn() {
   return new Promise((resolve) => {
     popup[0].style.animationName = "slideIn";
+    szczala[0].style.animationName = "rotateIn";
     popup[0].style.display = "block";
-    console.log("nice");
-    console.log(popup[0].style.animationName);
-    console.log(popup[0].style.display);
     resolve();
   });
 }
@@ -14,13 +13,11 @@ function slideIn() {
 function slideOut() {
   return new Promise((resolve) => {
     popup[0].style.animationName = "slideOut";
-    console.log("nice");
-    console.log(popup[0].style.animationName);
-
-    setTimeout(() => {}, 1000);
-    // popup[0].style.display = "none";
-    console.log(popup[0].style.display);
-    resolve();
+    szczala[0].style.animationName = "rotateOut";
+    setTimeout(() => {
+      popup[0].style.display = "none";
+      resolve();
+    }, 50);
   });
 }
 
