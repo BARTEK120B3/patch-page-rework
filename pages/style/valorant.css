@@ -100,7 +100,7 @@ li {
   width: 18vh;
   height: 18vh;
   position: sticky;
-  top: 10vh;
+  top: 10%;
   left: 100vw;
   background-color: #ff4655;
   border-bottom-left-radius: 0.3rem;
@@ -213,7 +213,7 @@ button {
   width: 80%;
   justify-content: center;
   display: none;
-  position:relative;
+  position: relative;
   margin-bottom: 42%;
 }
 
@@ -914,5 +914,42 @@ article > ul > li {
   }
   .easter-egg {
     display: block;
+  }
+
+  main > aside {
+    width: 84%;
+  }
+
+  main > aside {
+    font-size: 3.6vw;
+  }
+
+  main > aside > h2 {
+    font-size: 4.8vw;
+    width: 60%;
+  }
+
+  main > aside > table {
+    width: 80%;
+  }
+
+  th {
+    font-size: 3.8vw;
+  }
+
+  td {
+    font-size: 3.6vw;
+  }
+
+  .banner > h2 {
+    font-size: 4.8vw;
+  }
+
+  .champions > table {
+    width: 79%;
+  }
+
+  .champions > article {
+    width: 96%;
   }
 }
