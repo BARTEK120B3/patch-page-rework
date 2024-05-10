@@ -1014,5 +1014,16 @@ article > ul > li {
     height: 13vw;
   }
 
-  
+  .shorten {
+    width: 100%;
+    padding: .75rem;
+  }
+  .shorten > ul {
+    width: 100%;
+  }
+  .shorten > ul > li {
+    width: 100%;
+    font-size: 3.3vw;
+    margin: .8vw;
+  }
 }
