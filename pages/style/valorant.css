@@ -999,7 +999,6 @@ article > ul > li {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.5vw;
   }
 
   .article-header {
