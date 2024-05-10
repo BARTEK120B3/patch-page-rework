@@ -89,15 +89,15 @@ changeChamp();
 
 function changeChamp() {
   return new Promise((resolve) => {
-    imgRand = giveRandom(4); // this will give us the number from 0 to 3
-    console.log(imgRand);
+    imgRand = giveRandom(4);
+    // console.log(imgRand);
     championImgs[imgRand].style.display = "block";
     setTimeout(() => {
       championImgs[imgRand].style.animationName = "hideChamp";
       setTimeout(() => {
         championImgs[imgRand].style.display = "none";
         championImgs[imgRand].style.animationName = "showChamp";
-        console.log(imgRand, " has ", championImgs[imgRand].style.display);
+        // console.log(imgRand, " has ", championImgs[imgRand].style.display);
         resolve();
       }, 2000);
     }, 6000);

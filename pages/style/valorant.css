@@ -106,8 +106,8 @@ li {
   border-bottom-left-radius: 0.3rem;
   z-index: 50;
   animation-name: none;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+  animation-duration: 0.3s;
+  animation-fill-mode: backwards;
   display: none;
 }
 
@@ -115,18 +115,12 @@ li {
   0% {
     top: 0;
   }
-  10% {
-    top: 10vh;
-  }
   100% {
-    opacity: 1;
+    top: 10vh;
   }
 }
 @keyframes slideOut {
   0% {
-  }
-  10% {
-    top: 0;
   }
   100% {
     top: 0;
@@ -951,5 +945,9 @@ article > ul > li {
 
   .champions > article {
     width: 96%;
+  }
+
+  main > aside > .textMenager > p {
+    line-height: 4.7vw;
   }
 }
