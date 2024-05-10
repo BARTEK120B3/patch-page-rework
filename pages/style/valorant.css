@@ -116,7 +116,7 @@ li {
     top: 0;
   }
   100% {
-    top: 10vh;
+    top: 10%;
   }
 }
 @keyframes slideOut {
