@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>League of Legends</title>
+    <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/lol.css" />
-    <script src="scripts/lol.js" defer></script>
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="big-screen-header">
       <img src="src/lol.png" alt="lol logo" />
       <h1>League of Legends</h1>
       <nav>
@@ -25,13 +26,42 @@
         </ul>
       </nav>
     </header>
+    <header class="mobile-header">
+      <div class="logo-menager">
+        <img class="logo" src="src/lol.png" alt="lol logo" />
+      </div>
+      <h1>League of Legends</h1>
+      <div class="szczala-menager">
+        <img
+          class="szczala"
+          src="src/arrow.png"
+          alt="szczała"
+          onclick="triggerAnimation()" />
+      </div>
+    </header>
+    <div class="popup-menu">
+      <ul>
+        <li><button>Champions</button></li>
+        <li><button>Items</button></li>
+        <li><button>Other changes</button></li>
+      </ul>
+    </div>
     <aside class="champions-images">
       <div class="menager">
-        <img src="src/zed.jpg" alt="zed" class="slide s1" />
-        <img src="src/hecarim.jpg" alt="hecarim" class="slide s2" />
-        <img src="src/thresh.jpg" alt="thresh" class="slide s3" />
-        <img src="src/mordekaiser.jpg" alt="mordekaiser" class="slide s4" />
+        <img src="src/zed.jpg" alt="brim" class="slide s1" />
+        <img src="src/hecarim.jpg" alt="harbor" class="slide s2" />
+        <img src="src/thresh.jpg" alt="viper" class="slide s3" />
+        <img src="src/mordekaiser.jpg" alt="iso" class="slide s4" />
       </div>
+    </aside>
+    <aside class="champion-randomizer">
+      <img src="src/zed.jpg" alt="champion-img" class="champion-img" />
+      <img src="src/hecarim.jpg" alt="champion-img" class="champion-img" />
+      <img src="src/thresh.jpg" alt="champion-img" class="champion-img" />
+      <img src="src/mordekaiser.jpg" alt="champion-img" class="champion-img" />
+    </aside>
+    <aside class="easter-egg">
+      <h2>Click Me</h2>
     </aside>
     <main>
       <aside class="entry">
@@ -117,16 +147,22 @@
         <article>
           <div class="front">
             <div class="article-header">
-              <img
-                src="src/champions/camille/camille.png"
-                class="i1"
-                alt="camille-jpg" />
+              <div class="i1-menager">
+                <img
+                  src="src/champions/camille/camille.png"
+                  class="i1"
+                  alt="camille-jpg" />
+              </div>
               <h3>Camille</h3>
-              <img src="src/buff.png" class="i2" alt="buff" />
+              <div class="i2-menager">
+                <img src="src/buff.png" class="i2" alt="buff" />
+              </div>
             </div>
             <div class="shorten">
               <ul>
-                <li>&#x2022; Q bonus move speed increased, cooldown decreased.</li>
+                <li>
+                  &#x2022; Q bonus move speed increased, cooldown decreased.
+                </li>
                 <li>&#x2022; W outer cone damage increased.</li>
                 <li>&#x2022; E damage decreased.</li>
               </ul>
@@ -135,11 +171,15 @@
           <ul>
             <li>
               <div class="change">
-                <img
-                  src="src/champions/camille/camille-skill1.png"
-                  class="skill-img"
-                  alt="cs1" />
-                <h4>Q - Precision Protocol</h4>
+                <header class="change-header">
+                  <div class="skill-img-menager">
+                    <img
+                      src="src/champions/camille/camille-skill1.png"
+                      class="skill-img"
+                      alt="cs1" />
+                  </div>
+                  <h4>Q - Precision Protocol</h4>
+                </header>
                 <ul>
                   <li>
                     <h5>Bonus Move Speed:</h5>
@@ -154,11 +194,15 @@
             </li>
             <li>
               <div class="change">
-                <img
-                  src="src/champions/camille/camille-skill2.png"
-                  class="skill-img"
-                  alt="cs2" />
-                <h4>W - Tactical Sweep</h4>
+                <header class="change-header">
+                  <div class="skill-img-menager">
+                    <img
+                      src="src/champions/camille/camille-skill2.png"
+                      class="skill-img"
+                      alt="cs2" />
+                  </div>
+                  <h4>W - Tactical Sweep</h4>
+                </header>
                 <ul>
                   <li>
                     <h5>Outer Cone Base Damage:</h5>
@@ -169,11 +213,15 @@
             </li>
             <li>
               <div class="change">
-                <img
-                  src="src/champions/camille/camille-skill3.png"
-                  class="skill-img"
-                  alt="cs1" />
-                <h4>E - Hookshot</h4>
+                <header class="change-header">
+                  <div class="skill-img-menager">
+                    <img
+                      src="src/champions/camille/camille-skill3.png"
+                      class="skill-img"
+                      alt="cs1" />
+                  </div>
+                  <h4>E - Hookshot</h4>
+                </header>
                 <ul>
                   <li>
                     <h5>Damage:</h5>
@@ -238,7 +286,18 @@
     <footer>
       <p>
         Made by Bartosz Bartocha&copy; github link:
-        https://github.com/BARTEK120B3/patch-page-rework
+        <a href="https://github.com/BARTEK120B3/patch-page-rework" style="color: rgb(93, 93, 229)" target="_blank"
+          >https://github.com/BARTEK120B3/patch-page-rework</a
+        >
+        <br />
+        Icon from :
+        <a
+          target="_blank"
+          href="https://icons8.com/icon/Xna6tXt3TE0O/double-down" style="color: rgb(93, 93, 229)" >
+          Double Down
+        </a>
+
+        icons by <a target="_blank" href="https://icons8.com" style="color: rgb(93, 93, 229)">Icons8 </a>
       </p>
     </footer>
   </body>
