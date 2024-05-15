@@ -105,3 +105,7 @@ function changeChamp() {
 }
 
 setInterval(changeChamp, 8050);
+
+function easterEgg() {
+  championImgs[imgRand].style.animationName = animations[getRandomInt(3)];
+}
