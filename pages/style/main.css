@@ -31,7 +31,7 @@ td,
 h3,
 h4,
 h5,
-li, 
+li,
 a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -142,6 +142,10 @@ a {
 
 .popup-menu > ul > li {
   width: 100%;
+}
+
+.popup-menu > ul > li > button > a {
+  font-size: 4.6vw;
 }
 
 .big-screen-header > img {
@@ -638,8 +642,8 @@ article > ul > li {
 }
 
 footer {
-  border-top-left-radius: .3rem;
-  border-top-right-radius: .3rem;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
   padding: 1vw 1.5vw;
 }
 
@@ -958,7 +962,7 @@ footer {
   }
 
   .banner > h2 {
-    font-size: 4.8vw;
+    font-size: 7vw;
   }
 
   .champions > table {
