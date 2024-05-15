@@ -1068,4 +1068,7 @@ footer {
     font-size: 3vw;
     line-height: 4.5vw;
   }
+  footer {
+    padding: 3vw 0;
+  }
 }
