@@ -665,7 +665,7 @@ footer {
     width: 60%;
     font-size: 1.5vw;
   }
-  .change > h4 {
+  .change-header > h4 {
     font-size: 1.6vw;
   }
   .change > ul > li > h5 {
@@ -739,7 +739,7 @@ footer {
   .change > ul > li {
     margin: 0.45rem;
   }
-  .change > h4 {
+  .change-header > h4 {
     font-size: 2.2vw;
   }
   .change > ul > li > h5 {
@@ -820,7 +820,7 @@ footer {
   .change > ul > li {
     margin: 0.45rem;
   }
-  .change > h4 {
+  .change-header > h4 {
     font-size: 2.2vw;
   }
   .change > ul > li > h5 {
@@ -901,8 +901,8 @@ footer {
   .change > ul > li {
     margin: 0.45rem;
   }
-  .change > h4 {
-    font-size: 2.3vw;
+  .change-header > h4 {
+    font-size: 2vw;
   }
   .change > ul > li > h5 {
     font-size: 2.2vw;
@@ -925,7 +925,7 @@ footer {
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 600px) {
   .big-screen-header {
     display: none;
   }
@@ -1069,6 +1069,6 @@ footer {
     line-height: 4.5vw;
   }
   footer {
-    padding: 3vw 0;
+    padding: 3.5vw;
   }
 }
