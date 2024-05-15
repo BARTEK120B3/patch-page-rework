@@ -1,5 +1,9 @@
 @import url("https://fonts.cdnfonts.com/css/verdana");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 html {
   margin: 0;
@@ -27,7 +31,8 @@ td,
 h3,
 h4,
 h5,
-li {
+li, 
+a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -183,6 +188,10 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 .champion-randomizer {
@@ -626,6 +635,12 @@ article > ul > li {
   font-size: 1.25vw;
   text-wrap: wrap;
   width: 100%;
+}
+
+footer {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  padding: 1vw 1.5vw;
 }
 
 @media (max-width: 1280px) {

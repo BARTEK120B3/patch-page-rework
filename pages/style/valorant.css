@@ -21,7 +21,8 @@ td,
 h3,
 h4,
 h5,
-li {
+li,
+a {
   color: #eae9fc;
 }
 
@@ -95,4 +96,8 @@ article {
 
 .change {
   background-color: #4b4548;
+}
+
+footer {
+  background-color: #201e1f;
 }
