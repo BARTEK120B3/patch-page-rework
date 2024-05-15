@@ -97,10 +97,20 @@ footer {
 }
 
 footer > * {
-  margin: .3vw;
+  margin: 0.3vw;
+}
+
+@media (max-width: 1280px) {
+  img {
+    width: auto;
+    height: 46vw;
+  }
 }
 
 @media (max-width: 1024px) {
+  body {
+    justify-content: start;
+  }
   header {
     height: 5%;
   }
@@ -110,6 +120,7 @@ footer > * {
   }
   .container {
     margin: 0;
+    margin-top: 10vw;
   }
   img {
     height: 52vw;
