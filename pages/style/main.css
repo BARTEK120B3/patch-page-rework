@@ -723,13 +723,20 @@ footer {
   font-size: 0.9vw;
 }
 
+.form-right {
+  flex-direction: row;
+}
+
 .content {
-  height: 50%;
+  height: 82%;
   border: none;
   border-bottom: solid #ff4655 0.2vw;
   resize: none;
   font-size: 1vw;
   padding: 0.4vw;
+  margin-bottom: none;
+  width: 80%;
+  align-self: flex-end;
 }
 
 .content::placeholder {
@@ -741,6 +748,7 @@ footer {
   width: 30%;
   border-width: 0.15vw;
   font-size: 1.5vw;
+  align-self: flex-end;
 }
 
 .footer-organizer {
@@ -1299,7 +1307,7 @@ footer {
   }
 
   .footer-text > li > * {
-    margin: .5vw;
+    margin: 0.5vw;
   }
 
   .footer-text > li > h5 {
