@@ -99,3 +99,7 @@ article {
 footer {
   background-color: rgba(44, 41, 86, 200);
 }
+
+.name, .email, .content {
+  border-bottom: solid #ebd94d 0.2vw;
+}
