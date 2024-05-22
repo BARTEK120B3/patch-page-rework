@@ -756,7 +756,7 @@ footer {
   width: 4%;
   height: 90%;
   background-color: #c3c1e7;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 .footer-right-side {
@@ -767,26 +767,26 @@ footer {
 }
 
 .footer-text {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    padding: 1.3vw;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 1.3vw;
 }
 
 .footer-text > li {
-    width: 100%;
-    display: flex;
-    justify-content: left;
+  width: 100%;
+  display: flex;
+  justify-content: left;
 }
 
 .footer-text > li > h5 {
-    font-size: 1vw;
-    width: 34%;
+  font-size: 1vw;
+  width: 34%;
 }
 
 .footer-text > li > a {
-    font-size: .85vw;
+  font-size: 0.85vw;
 }
 
 @media (max-width: 1280px) {
@@ -1197,7 +1197,117 @@ footer {
     font-size: 3vw;
     line-height: 4.5vw;
   }
+
+  /* footer */
+
   footer {
-    padding: 3.5vw;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-left-side {
+    width: 100%;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .form > * {
+    width: 100%;
+    height: auto;
+    /* align-items: center; */
+  }
+
+  .form-left {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .form-left > h3 {
+    font-size: 6vw;
+    margin-bottom: 2vw;
+  }
+
+  .name {
+    width: 46%;
+    padding: 1.5vw;
+    border-bottom-width: 1vw;
+  }
+
+  .name::placeholder {
+    font-size: 4vw;
+  }
+
+  .email {
+    width: 46%;
+    padding: 1.5vw;
+    border-bottom-width: 1vw;
+  }
+
+  .email::placeholder {
+    font-size: 4vw;
+  }
+
+  .form-right {
+    align-items: center;
+  }
+
+  .content {
+    padding: 1.5vw;
+    width: 94%;
+    min-height: 20vw;
+    font-size: 3.8vw;
+    border-bottom-width: 1vw;
+  }
+
+  .content::placeholder {
+    font-size: 3.8vw;
+  }
+
+  .submit-button {
+    height: 8vw;
+    align-self: baseline;
+    margin-top: 2vw;
+    margin-left: 3%;
+    font-size: 5.5vw;
+  }
+
+  .footer-organizer {
+    width: 100%;
+    height: 3vw;
+    justify-content: center;
+  }
+
+  .line {
+    height: 10%;
+    width: 90%;
+  }
+
+  .footer-right-side {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-text {
+    padding: 4vw;
+  }
+
+  .footer-text > li {
+    flex-direction: column;
+    margin: 2vw;
+  }
+
+  .footer-text > li > * {
+    margin: .5vw;
+  }
+
+  .footer-text > li > h5 {
+    width: 100%;
+    font-size: 4vw;
+  }
+  .footer-text > li > a {
+    width: 100%;
+    font-size: 3.35vw;
   }
 }

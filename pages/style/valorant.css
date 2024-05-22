@@ -102,6 +102,8 @@ footer {
   background-color: #201e1f;
 }
 
-.name, .email, .content {
-  border-bottom: solid #ff4655 0.2vw;
+.name,
+.email,
+.content {
+  border-bottom-color: #ff4655;
 }
